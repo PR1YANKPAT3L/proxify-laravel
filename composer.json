@@ -1,0 +1,21 @@
+{
+    "name": "priyankpatel/proxify-laravel",
+    "description": "Laravel 5 Proxy layer for OAuth2 API requests",
+    "type": "laravel-package",
+    "require": {
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Priyank Patel",
+            "email": "priyankpatel4@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PriyankPatel\\ProxifyLaravel\\": "src/PriyankPatel/ProxifyLaravel"
+        }
+    },
+    "minimum-stability": "stable"
+}
